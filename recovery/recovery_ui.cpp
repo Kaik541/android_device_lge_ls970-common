@@ -91,7 +91,7 @@ public:
     BuiltinAction InvokeMenuItem(int menu_position) {
         switch (menu_position) {
         case 0: return REBOOT;
-        case 1: return APPLY_ADB_SIDELOAD;
+        case 1: return NO_ACTION;
         case 2: return WIPE_DATA;
         case 3: return WIPE_CACHE;
         default: return NO_ACTION;
